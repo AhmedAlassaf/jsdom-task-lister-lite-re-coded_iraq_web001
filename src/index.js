@@ -4,18 +4,18 @@ document.addEventListener("DOMContentLoaded", () => {
   submit.addEventListener('click', function(e){
     event.preventDefault();
     let tasks = document.getElementById("tasks");
-    let description = getElementById('')
-    if (tasks == "") {
+    let description = getElementById('new-task-description').value;
+    if (description == "") {
         alert("Add a ToDo!");
     }
 
     else {
         
         let item = document.createElement('li');
-        newToDo.innerHTML = `<div>${text}</div>`;
+        item.innerHTML = `<div>${description}</div>`;
         tasks.appendChild(item);
 
-        tasks = document.getElementById('text').value ='';
+        description = document.getElementById('new-task-description').value ='';
         deadline = document.getElementById('deadline').value ='';
     }
   });
