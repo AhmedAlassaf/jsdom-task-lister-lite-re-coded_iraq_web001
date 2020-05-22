@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   submit.addEventListener('click', function(e){
     event.preventDefault();
     let tasks = document.getElementById("tasks").value;
-    
+    let description
     if (tasks == "") {
         alert("Add a ToDo!");
     }
