@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
         let item = document.createElement('li');
         item.innerHTML = `<div>${description}</div>`;
         tasks.appendChild(item);
-
         description = document.getElementById('new-task-description').value ='';
   });
 });
