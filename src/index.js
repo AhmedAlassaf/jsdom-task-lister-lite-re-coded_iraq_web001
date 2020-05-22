@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   submit.addEventListener('click', function(e){
     
     let tasks = document.getElementById("tasks");
-    let description = getElementById('new-task-description').value;
+    let description = document.getElementById('new-task-description').value;
     let task = document.createElement('li');
     task.innerHTML = description;
     tasks.appendChild(task)
