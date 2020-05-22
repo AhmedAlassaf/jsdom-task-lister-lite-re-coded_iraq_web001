@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
   let submit = document.getElementsByTagName('input')[1];
   submit.addEventListener('click', function(e){
     event.preventDefault();
-    let tasks = document.getElementById("tasks").value;
-    let description
+    let tasks = document.getElementById("tasks");
+    let description = getElementById('')
     if (tasks == "") {
         alert("Add a ToDo!");
     }
