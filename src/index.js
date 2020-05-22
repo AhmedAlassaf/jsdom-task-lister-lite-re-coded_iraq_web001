@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let tasks = document.getElementById("tasks");
     let description = getElementById('new-task-description').value;
     let task = document.createElement('li');
-    item.innerHTML = `<div>${description}</div>`;
+    task.innerHTML = description;
+    tasks.appendChild(task)
     event.preventDefault();   
   });
 });
