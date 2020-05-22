@@ -16,13 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
         tasks.appendChild(item);
 
         description = document.getElementById('new-task-description').value ='';
-        deadline = document.getElementById('deadline').value ='';
     }
   });
-  
-  let tasksList=document.getElementById('tasks');
-  let listItem=document.createElement('li');
-  let delBtn=document.createElement('button');
-  listItem.appendChild(delBtn);
-  tasksList.appendChild(listItem);
 });
